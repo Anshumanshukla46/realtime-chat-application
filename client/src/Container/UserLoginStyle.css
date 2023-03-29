@@ -1,0 +1,38 @@
+.h1_style {
+    margin: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.name_input {
+    margin: 10;
+    height: 30;
+    width: 35%;
+    border-radius: 10px;
+    padding-inline: 5;
+    font-size: 25px;
+    padding-left: 10px;
+
+}
+
+.main_page {
+    height: 93vh;
+}
+
+.login_btn {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(136, 136, 240);
+    border: 1px solid blue;
+    color: white;
+    margin: 10px;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+.login_btn:hover {
+    border: 1px solid rgb(136, 136, 240);
+    background-color: white;
+    cursor: pointer;
+    color: rgb(136, 136, 240);
+}

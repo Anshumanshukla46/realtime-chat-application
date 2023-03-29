@@ -1,0 +1,2 @@
+start client (npm start vs code terminal)
+server (cmd - nodemon)

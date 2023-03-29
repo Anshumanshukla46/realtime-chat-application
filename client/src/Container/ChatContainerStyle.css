@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.user_div {
+    display: "flex";
+    flex-direction: "row";
+    justify-content: space-between;
+
+}
+
+.user_name {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.logout_button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #eac65a;
+    color: black;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border: 2px solid #eac65a;
+}
+
+.logout_button:hover {
+    cursor: pointer;
+    border: 2px solid #eac65a;
+    background-color: white;
+}
+
+.chats_style {
+    height: 70vh;
+    overflow: auto;
+    overflow-x: auto;
+    /* position: absolute; */
+}

@@ -1,0 +1,29 @@
+.send_btn {
+    /* width: 10%;
+    height: 50px; */
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #34b7f1;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.send_btn:hover {
+    cursor: pointer;
+    border: 1px solid #34b7f1;
+    background-color: white;
+    color: black;
+}
+
+.textarea_message {
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    position: static;
+    resize: none;
+}
